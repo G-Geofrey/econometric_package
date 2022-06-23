@@ -444,7 +444,7 @@ class mplot:
                            ecolor = self.df_params.Significant.map({True: '#20B2AA', False: '#F08080'}),
                            capsize = 0, xerr = 'errors', legend = False)
 
-            ax.scatter(y = pd.np.arange(self.df_params.shape[0]), marker = 'o', s = 160, x = self.df_params['coef'], 
+            ax.scatter(y = np.arange(self.df_params.shape[0]), marker = 'o', s = 160, x = self.df_params['coef'], 
                        color = self.df_params.Significant.map({True: '#20B2AA', False: '#F08080'}))
 
             ax.axvline(x = 0, linestyle = '--', color = '#F08080', linewidth = 1)

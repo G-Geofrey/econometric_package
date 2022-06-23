@@ -8,7 +8,7 @@ setup(
     # name that will be imported, can be different from code file name
     name='pynometrics',
 
-    version='0.0.01',
+    version='0.0.04',
 
     description='Includes functions for performing econometrics tasks',
 
